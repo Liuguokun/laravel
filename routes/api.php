@@ -19,6 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/test','TestController@test_1');
 
+// 这是在master下增加的代码
 
 Route::post('/encrypt','TestController@encrypt');
 Route::post('/decrypt','TestController@decrypt');
